@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "OpenNN for Unreal Engine",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Lucas Fisher",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UnrealONN",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

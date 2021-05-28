@@ -1,0 +1,5 @@
+[submodule "Source/ThirdParty/opennn"]
+	path = Source/ThirdParty/opennn
+	url = https://github.com/Artelnics/opennn.git
+	shallow = true
+
