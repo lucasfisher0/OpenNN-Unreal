@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "NeuralClasses.h"
 #include "NeuralBlueprintLibrary.generated.h"
 
 /**
@@ -11,7 +12,10 @@
 UCLASS(meta=(ScriptName="OpenNN Library"))
 class UNREALONN_API UNeuralBlueprintLibrary : public UBlueprintFunctionLibrary
 {
-	GENERATED_BODY();
+	GENERATED_BODY()
 
 	/* Blueprint Functions here */
+
+	UFUNCTION(BlueprintCallable)
+	UNeuralNetwork* NewNeuralNetworkObject(UObject* Outer);
 };

@@ -10,6 +10,9 @@ public class UnrealONN : ModuleRules
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
+		bEnableUndefinedIdentifierWarnings = false;
+		bUseRTTI = true;
+
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
@@ -18,8 +21,7 @@ public class UnrealONN : ModuleRules
 				"Engine",
 			}
 		);
-		
-		
+
 		PublicIncludePaths.AddRange(
 			new string[] {
 				Path.Combine(ModuleDirectory, "../ThirdParty/opennn/opennn")

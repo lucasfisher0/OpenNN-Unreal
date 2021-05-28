@@ -6,12 +6,10 @@
 
 void FUnrealONNModule::StartupModule()
 {
-
 }
 
 void FUnrealONNModule::ShutdownModule()
 {
-
 }
 	
-IMPLEMENT_MODULE(FDefaultModuleImpl, FUnrealONNModule);
+IMPLEMENT_MODULE(FUnrealONNModule, UnrealONN);
