@@ -1,3 +1,6 @@
+THIS PLUGIN IS CURRENTLY NON-FUNCTIONAL
+
+
 OpenNN for Unreal Engine
 
 This is a code plugin for Unreal Engine that integrates the OpenNN software library.
